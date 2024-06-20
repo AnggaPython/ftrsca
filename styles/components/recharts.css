@@ -1,0 +1,25 @@
+/*recharts*/
+
+[data-background="light"] {
+  .recharts-responsive-container {
+    @apply text-black;
+  }
+}
+
+[data-background="dark"] {
+  .recharts-responsive-container {
+    @apply text-white;
+  }
+}
+
+.text-3xs {
+  font-size: .5rem;
+}
+
+.recharts-cartesian-axis-tick-value {
+  @apply fill-current text-black dark:text-white text-3xs sm:text-sm md:text-sm lg:text-sm xl:text-sm font-medium;
+}
+
+.small-x .recharts-cartesian-axis-tick-value {
+  font-size: .5rem !important;
+}

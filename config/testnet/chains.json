@@ -1,0 +1,160 @@
+[
+  {
+    "id": "goerli",
+    "chain_id": 5,
+    "domain_id": "1735353714",
+    "name": "Goerli",
+    "short_name": "GOR",
+    "rpcs": [
+      "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://goerli.blockpi.network/v1/rpc/public"
+    ],
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "explorer": {
+      "name": "Etherscan",
+      "url": "https://goerli.etherscan.io",
+      "icon": "/logos/explorers/etherscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/goerli.png",
+    "color": "#636890",
+    "unwrapper_contract": "0xa6633d369A9C4C8A442ef104E8e293DA7b352Acd",
+    "group": "evm",
+    "no_pool": true,
+    "coingecko_id": "ethereum"
+  },
+  {
+    "id": "polygon",
+    "chain_id": 80001,
+    "domain_id": "9991",
+    "name": "Polygon",
+    "short_name": "POLY",
+    "rpcs": [
+      "https://polygon-mumbai.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://polygon-mumbai-bor.publicnode.com"
+    ],
+    "native_token": {
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "explorer": {
+      "name": "Polygonscan",
+      "url": "https://mumbai.polygonscan.com",
+      "icon": "/logos/explorers/polygonscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/polygon.png",
+    "color": "#8247e5",
+    "unwrapper_contract": "0x1e0Db00EB08ceC7FFdA03c0Dbf224193E1563844",
+    "group": "evm",
+    "coingecko_id": "matic-network"
+  },
+  {
+    "id": "optimism",
+    "chain_id": 420,
+    "domain_id": "1735356532",
+    "name": "Optimism",
+    "short_name": "OP",
+    "rpcs": [
+      "https://optimism-goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://optimism-goerli.publicnode.com"
+    ],
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "oETH",
+      "decimals": 18
+    },
+    "explorer": {
+      "name": "Etherscan",
+      "url": "https://goerli-optimism.etherscan.io",
+      "icon": "/logos/explorers/etherscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/optimism.png",
+    "color": "#dc2626",
+    "unwrapper_contract": "0x08bDeFD0e4878A814Cb2fd11C033F3947251689f",
+    "group": "optimistic_rollups",
+    "coingecko_id": "optimism",
+    "gas_coingecko_id": "ethereum"
+  },
+  {
+    "id": "arbitrum",
+    "chain_id": 421613,
+    "domain_id": "1734439522",
+    "name": "Arbitrum",
+    "short_name": "ARB",
+    "rpcs": [
+      "https://arbitrum-goerli.blockpi.network/v1/rpc/public",
+      "https://arbitrum-goerli.publicnode.com"
+    ],
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "aETH",
+      "decimals": 18
+    },
+    "explorer": {
+      "name": "Arbiscan",
+      "url": "https://goerli.arbiscan.io",
+      "icon": "/logos/explorers/arbiscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/arbitrum.png",
+    "color": "#28a0f0",
+    "unwrapper_contract": "0x18BBF96BC8014aA93cbf1A5Bce005a485b5C2C4a",
+    "group": "optimistic_rollups",
+    "coingecko_id": "arbitrum",
+    "gas_coingecko_id": "ethereum"
+  },
+  {
+    "id": "linea",
+    "chain_id": 59140,
+    "domain_id": "1668247156",
+    "name": "Linea",
+    "short_name": "LINEA",
+    "rpcs": [
+      "https://rpc.goerli.linea.build"
+    ],
+    "native_token": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "explorer": {
+      "name": "Linea",
+      "url": "https://goerli.lineascan.build",
+      "icon": "/logos/explorers/linea.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/linea.png",
+    "color": "#1d1d1d",
+    "unwrapper_contract": "0x2Eee7cB087c0430e40991f7E37De44Ec248a9F45",
+    "coingecko_id": "",
+    "gas_coingecko_id": "ethereum",
+    "no_staging": true
+  }
+]
